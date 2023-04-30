@@ -1,2 +1,2 @@
 # quantumultx
-自用
+test
