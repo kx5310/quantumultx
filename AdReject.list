@@ -3,16 +3,36 @@
 HOST, api-adservices.apple.com, REJECT
 HOST-SUFFIX, iadsdk.apple.com, REJECT
 
+#支付宝
+DOMAIN-SUFFIX,alipaylog.com,REJECT
+DOMAIN-SUFFIX,amdc.alipay.com,REJECT
+DOMAIN-SUFFIX,mdap.alipaylog.com,REJECT
+DOMAIN,ynuf.alipay.com,REJECT
+DOMAIN-SUFFIX,alipay.dajiadou6.com,REJECT
+
 # ======= B ======= #
 # 百度
 HOST-SUFFIX, pos.baidu.com, REJECT
 # 哔哩哔哩
 HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT
+DOMAIN-SUFFIX,miniapp.bilibili.com,REJECT
+DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 
 # ======= C ======= #
+#彩云
+DOMAIN-SUFFIX,ad.caiyunapp.com,REJECT
 
+# ======= D ======= #
+#斗鱼
+DOMAIN,msg.douyu.com,REJECT
+DOMAIN,cs-op.douyucdn.cn,REJECT
+DOMAIN,rtbapi.douyucdn.cn,REJECT
+DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
+DOMAIN-SUFFIX,g.wan.douyu.com,REJECT
+DOMAIN-SUFFIX,wan.douyu.com,REJECT
 
+# ======= E ======= #
 # ======= F ======= #
 # Foreca & Google
 HOST, adservice.google.com, REJECT
@@ -23,18 +43,17 @@ HOST, pagead2.googlesyndication.com, REJECT
 HOST, www.googleadservices.com, REJECT
 HOST-WILDCARD, adservice.google.com.??, REJECT
 
-# ======= H ======= #
-# HTTPDNS 服务器
-## 阿里云
-IP-CIDR, 203.107.1.1/24, REJECT
-## 百度贴吧
-IP-CIDR, 186.76.76.200/32, REJECT
-
 # ======= G ======= #
 # 高德地图
 HOST, amap-aos-info-nogw.amap.com, REJECT
 HOST, awaken.amap.com, REJECT
 HOST, free-aos-cdn-image.amap.com, REJECT
+DOMAIN-SUFFIX,optimus-ads.amap.com.w.alikunlun.com,REJECT
+DOMAIN-SUFFIX,page.amap.com,REJECT
+DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
+DOMAIN,aamapi.com,REJECT
+DOMAIN,logs.amap.com,REJECT
+
 # 工商银行 开屏广告
 HOST, pageviewp.icbc.com.cn, REJECT
 # 广告联盟
@@ -44,12 +63,54 @@ HOST, open.e.kuaishou.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
 
+# ======= H ======= #
+# HTTPDNS 服务器
+## 阿里云
+IP-CIDR, 203.107.1.1/24, REJECT
+## 百度贴吧
+IP-CIDR, 186.76.76.200/32, REJECT
+
+# ======= I ======= #
+# ======= J ======= #
+#京东
+DOMAIN-SUFFIX,cm.jd.com,REJECT
+DOMAIN-SUFFIX,c-nfa.jd.com,REJECT
+DOMAIN-SUFFIX,du.jd.com,REJECT
+DOMAIN-SUFFIX,img-x.jd.com,REJECT
+DOMAIN-SUFFIX,jd.c-ptsp.com.cn,REJECT
+DOMAIN-SUFFIX,jdb.jiudingcapital.cn,REJECT
+DOMAIN-SUFFIX,jdb.jiudingcapital.com,REJECT
+DOMAIN-SUFFIX,jzt.jd.com,REJECT
+DOMAIN-SUFFIX,pic.jdbbs.com,REJECT
+DOMAIN-SUFFIX,pic.jd-bbs.com,REJECT
+DOMAIN-SUFFIX,pic.jdunion.com,REJECT
+DOMAIN-SUFFIX,bdsp.x.jd.com,REJECT
+DOMAIN-SUFFIX,gia.jd.com,REJECT
+DOMAIN-SUFFIX,im-x.jd.com,REJECT
+DOMAIN-SUFFIX,shooter.m.jd.com,REJECT
+DOMAIN-SUFFIX,stat.m.jd.com,REJECT
+DOMAIN-SUFFIX,u-x.jd.com,REJECT
+DOMAIN-SUFFIX,u.x.jd.com,REJECT
+DOMAIN-SUFFIX,wn.x.jd.com,REJECT
+DOMAIN-SUFFIX,jcm.jd.com,REJECT
+DOMAIN-SUFFIX,ads.union.jd.com,REJECT
+DOMAIN-SUFFIX,jrclick.jd.com,REJECT
+DOMAIN-SUFFIX,policy.jd.com,REJECT
+DOMAIN,ads-union.jd.com,REJECT
+DOMAIN,jrad.jd.com,REJECT
+DOMAIN,mercury.jd.com,REJECT
+
 # ======= K ======= #
 
 # ======= L ======= #
 
 # ======= M ======= #
+#美团
+DOMAIN-SUFFIX,report.meituan.com,REJECT
+DOMAIN-SUFFIX,wmlog.meituan.com,REJECT
+DOMAIN-SUFFIX,analytics.meituan.net,REJECT
 
+# ======= N ======= #
 # ======= O ======= #
 # Outlook
 HOST, acdn.adnxs.com, REJECT
@@ -62,18 +123,170 @@ HOST, sin3-ib.adnxs.com, REJECT
 # 什么值得买
 HOST, api.zuihuimai.com, REJECT
 
+#spotify
+DOMAIN-SUFFIX,adeventtracker.spotify.com,REJECT
+DOMAIN-SUFFIX,weblb-wg.gslb.spotify.com,REJECT
+DOMAIN-SUFFIX,analytics.spotify.com,REJECT
+DOMAIN-SUFFIX,log.spotify.com,REJECT
+DOMAIN-SUFFIX,pixel-static.spotify.com,REJECT
+DOMAIN-SUFFIX,pixel.spotify.com,REJECT
+
 # ======= T ======= #
 # 腾讯 无法使用的推送服务
 HOST, tpns.qq.com, REJECT
+# 淘宝
+DOMAIN,advertisement.taobao.com,REJECT
+DOMAIN,amdcopen.m.taobao.com,REJECT
+DOMAIN,bcfeedback.taobao.com,REJECT
+DOMAIN,detail.taobao.com,REJECT
+DOMAIN,eco.taobao.com,REJECT
+DOMAIN,top.taobao.com,REJECT
+DOMAIN,umengacs.m.taobao.com,REJECT
+DOMAIN,fourier.taobao.com,REJECT
+DOMAIN,accscdn.m.taobao.com,REJECT
+DOMAIN,acs.wapa.taobao.com,REJECT
+DOMAIN,openjmacs.m.taobao.com,REJECT
+DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
+DOMAIN-SUFFIX,agoodm.m.taobao.com,REJECT
+DOMAIN-SUFFIX,ai.m.taobao.com,REJECT
+DOMAIN-SUFFIX,ai.taobao.com,REJECT
+DOMAIN-SUFFIX,api.waptest.taobao.com,REJECT
+DOMAIN-SUFFIX,dsp.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,fav.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,m.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,mclick.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,re.m.taobao.com,REJECT
+DOMAIN-SUFFIX,re.taobao.com,REJECT
+DOMAIN-SUFFIX,redirect.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,simba.m.taobao.com,REJECT
+DOMAIN-SUFFIX,srd.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,strip.taobaocdn.com,REJECT
+DOMAIN-SUFFIX,taobaoaliyun.cn,REJECT
+DOMAIN-SUFFIX,taobaobo5.com,REJECT
+DOMAIN-SUFFIX,temai.taobao.com,REJECT
+DOMAIN-SUFFIX,textlink.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,unitacs.m.taobao.com,REJECT
+DOMAIN-SUFFIX,w.m.taobao.com,REJECT
+DOMAIN-SUFFIX,adashbc.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,adash-c.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,adashxgc.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,adashx4yt.m.taobao.com,REJECT
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT
+DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,REJECT
+DOMAIN-SUFFIX,tunion-api.m.taobao.com,REJECT
+DOMAIN-SUFFIX,tns.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,click.mz.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,click.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,click.tz.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,stat.simba.taobao.com,REJECT
+DOMAIN-SUFFIX,m-adash.m.taobao.com,REJECT
+DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT
+DOMAIN-SUFFIX,ip.taobao.com,REJECT
+DOMAIN-SUFFIX,nbsdk-baichuan.taobao.com,REJECT
+DOMAIN-SUFFIX,pics.taobaocdn.com,REJECT
+DOMAIN-SUFFIX,pindao.huoban.taobao.com,REJECT
+DOMAIN-SUFFIX,rj.m.taobao.com,REJECT
+DOMAIN-SUFFIX,sdkinit.taobao.com,REJECT
+DOMAIN-SUFFIX,show.re.taobao.com,REJECT
+DOMAIN-SUFFIX,simaba.taobao.com,REJECT
+DOMAIN-SUFFIX,m.simaba.taobao.com,REJECT
+DOMAIN-SUFFIX,38taobao.com,REJECT
+DOMAIN-SUFFIX,dm.taobaojuhuasuan.cn,REJECT
+DOMAIN-SUFFIX,taobaojx.com,REJECT
+DOMAIN-SUFFIX,count.taobao.com,REJECT
+DOMAIN-SUFFIX,retcode.taobao.com,REJECT
+DOMAIN-SUFFIX,tbskip.taobao.com,REJECT
+DOMAIN-SUFFIX,simaba.m.taobao.com,REJECT
+DOMAIN-SUFFIX,tyh.taobao.com,REJECT
+DOMAIN-SUFFIX,g.click.taobao.com,REJECT
+DOMAIN,baidu-taobao-av.com,REJECT
 
 # ======= W ======= #
 # 网易云音乐
 HOST, gdt.qq.com, REJECT
 HOST, httpdns.n.netease.com, REJECT
 HOST, iadmat.nosdn.127.net, REJECT
-HOST, iadmusicmat.music.126.net, REJECT
-HOST, iadmusicmatvideo.music.126.net, REJECT
+DOMAIN-SUFFIX,da.netease.com,REJECT
+DOMAIN-SUFFIX,ad.bn.netease.com,REJECT
+DOMAIN-SUFFIX,analytics.hz.netease.com,REJECT
+DOMAIN-SUFFIX,statis.push.netease.com,REJECT
+DOMAIN,httpdns.n.netease.com,REJECT
+DOMAIN,mam.netease.com,REJECT
+DOMAIN,pcr.da.netease.com,REJECT
+DOMAIN,rev.da.netease.com,REJECT
+DOMAIN,yt-adv.bn.netease.com,REJECT
+
+#126
+DOMAIN-SUFFIX,admusicpic.music.126.net,REJECT
+DOMAIN-SUFFIX,iadmusicmat.music.126.net,REJECT
+DOMAIN-SUFFIX,iadmusicmatvideo.music.126.net,REJECT
+DOMAIN-SUFFIX,analytics.126.net,REJECT
+DOMAIN-SUFFIX,android.push.126.net,REJECT
+DOMAIN-SUFFIX,b.bst.126.net,REJECT
+DOMAIN-SUFFIX,cache.xw126.com,REJECT
+DOMAIN-SUFFIX,img1.126.net,REJECT
+DOMAIN-SUFFIX,img2.126.net,REJECT
+DOMAIN-SUFFIX,img3.126.net,REJECT
+DOMAIN-SUFFIX,img6.126.net,REJECT
+DOMAIN-SUFFIX,ir.mail.126.com,REJECT
+DOMAIN-SUFFIX,mimg.126.net,REJECT
+DOMAIN-SUFFIX,news.push.126.net,REJECT
+DOMAIN-SUFFIX,pimg1.126.net,REJECT
+DOMAIN-SUFFIX,push.126.net,REJECT
+DOMAIN-SUFFIX,webstat.ws.126.net,REJECT
+DOMAIN-SUFFIX,yd126.com,REJECT
+DOMAIN-SUFFIX,yt-adp.ws.126.net,REJECT
+DOMAIN-SUFFIX,analytics.ws.126.net,REJECT
+DOMAIN-SUFFIX,m.analytics.126.net,REJECT
+DOMAIN-SUFFIX,stat.ws.126.net,REJECT
+DOMAIN-SUFFIX,d.ab126.com,REJECT
+DOMAIN,pg-ad-b1.ws.126.net,REJECT
+DOMAIN,pg-ad-b2.ws.126.net,REJECT
+DOMAIN,data.yd126.com,REJECT
+DOMAIN,shouji.yd126.com,REJECT
+DOMAIN,www.yd126.com,REJECT
+
+#163
 HOST-SUFFIX, 163jiasu.com, REJECT
+DOMAIN-SUFFIX,163.wrating.com,REJECT
+DOMAIN-SUFFIX,163ren.com,REJECT
+DOMAIN-SUFFIX,adgeo.163.com,REJECT
+DOMAIN-SUFFIX,bobo.163.com,REJECT
+DOMAIN-SUFFIX,count.mail.163.com,REJECT
+DOMAIN-SUFFIX,crashlytics.163.com,REJECT
+DOMAIN-SUFFIX,e-p4p.163.com,REJECT
+DOMAIN-SUFFIX,fa.163.com,REJECT
+DOMAIN-SUFFIX,g.163.com,REJECT
+DOMAIN-SUFFIX,g1.163.com,REJECT
+DOMAIN-SUFFIX,gb.corp.163.com,REJECT
+DOMAIN-SUFFIX,iad.g.163.com,REJECT
+DOMAIN-SUFFIX,ir.mail.163.com,REJECT
+DOMAIN-SUFFIX,irpmt.mail.163.com,REJECT
+DOMAIN-SUFFIX,jxad.jx163.com,REJECT
+DOMAIN-SUFFIX,popme.163.com,REJECT
+DOMAIN-SUFFIX,push.yuedu.163.com,REJECT
+DOMAIN-SUFFIX,r.mail.163.com,REJECT
+DOMAIN-SUFFIX,rec.g.163.com,REJECT
+DOMAIN-SUFFIX,temp.163.com,REJECT
+DOMAIN-SUFFIX,tpe163.com,REJECT
+DOMAIN-SUFFIX,n.3g.163.com,REJECT
+DOMAIN-SUFFIX,nex.163.com,REJECT
+DOMAIN-SUFFIX,ff.xue163.net,REJECT
+DOMAIN-SUFFIX,analytics.163.com,REJECT
+DOMAIN-SUFFIX,adgeo.corp.163.com,REJECT
+DOMAIN,api.iplay.163.com,REJECT
+DOMAIN-SUFFIX,bobo.corp.163.com,REJECT
+DOMAIN-SUFFIX,fa.corp.163.com,REJECT
+DOMAIN-SUFFIX,g.corp.163.com,REJECT
+DOMAIN-SUFFIX,g1.corp.163.com,REJECT
+DOMAIN-SUFFIX,nex.corp.163.com,REJECT
+DOMAIN,www.163ren.com,REJECT
+DOMAIN,ac.dun.163yun.com,REJECT
+DOMAIN,down.feiyang163.com,REJECT
+DOMAIN,down2.feiyang163.com,REJECT
+DOMAIN,down3.feiyang163.com,REJECT
+DOMAIN,www.feiyang163.com,REJECT
+
 # 微博 开屏广告
 HOST, adstrategy.biz.weibo.com, REJECT
 HOST, kadmimage.biz.weibo.com, REJECT
@@ -86,6 +299,12 @@ HOST, sdkmonitor.biz.weibo.com, REJECT
 HOST, sdkconfig.ad.xiaomi.com, REJECT
 
 # ======= Y ======= #
+#youtube
+DOMAIN-SUFFIX,ads.youtube.com,REJECT
+DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
+DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
+DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
+DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 
 # ======= Z ======= #
 # 知乎
