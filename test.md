@@ -1,2 +1,0 @@
-# quantumultx
-test
