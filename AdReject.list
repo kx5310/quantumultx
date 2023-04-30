@@ -41,18 +41,19 @@ HOST, googleads.g.doubleclick.net, REJECT
 HOST, pubads.g.doubleclick.net, REJECT
 HOST, pagead2.googlesyndication.com, REJECT
 HOST, www.googleadservices.com, REJECT
-HOST-WILDCARD, adservice.google.com.??, REJECT
+HOST-WILDCARD, adservice.google.com, REJECT
 
 # ======= G ======= #
 # 高德地图
 HOST, amap-aos-info-nogw.amap.com, REJECT
 HOST, awaken.amap.com, REJECT
 HOST, free-aos-cdn-image.amap.com, REJECT
-DOMAIN-SUFFIX,optimus-ads.amap.com.w.alikunlun.com,REJECT
 DOMAIN-SUFFIX,page.amap.com,REJECT
 DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
 DOMAIN,aamapi.com,REJECT
 DOMAIN,logs.amap.com,REJECT
+DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
+DOMAIN-SUFFIX,w.alikunlun.com,REJECT
 
 # 工商银行 开屏广告
 HOST, pageviewp.icbc.com.cn, REJECT
