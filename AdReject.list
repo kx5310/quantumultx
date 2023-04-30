@@ -1,19 +1,7 @@
-# 2023-04-29 08:32
-
 # ======= A ======= #
 # Apple
 HOST, api-adservices.apple.com, REJECT
 HOST-SUFFIX, iadsdk.apple.com, REJECT
-# 安全浏览限制解除
-HOST, lookup.api.bsb.baidu.com, REJECT
-HOST, proxy.safebrowsing.apple, REJECT
-HOST, safebrowsing.g.applimg.com, REJECT
-HOST, safebrowsing.googleapis.com, REJECT
-HOST, safebrowsing.urlsec.qq.com, REJECT
-HOST, token.safebrowsing.apple, REJECT
-HOST, vs6.bj2ct.u3.ucweb.com, REJECT
-HOST-SUFFIX, safebrowsing.apple, REJECT
-HOST-SUFFIX, u3.ucweb.com, REJECT
 
 # ======= B ======= #
 # 百度
@@ -23,17 +11,9 @@ HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT
 
 # ======= C ======= #
-# Clue 智库
-HOST, api.helloclue.com, REJECT
-HOST, brahe.apptimize.com, REJECT
-HOST, collector.clue.run, REJECT
-HOST, mapi.apptimize.com, REJECT
-HOST, md-i-s.apptimize.com, REJECT
-HOST, images.ctfassets.net, REJECT
+
 
 # ======= F ======= #
-# Flurry
-HOST, data.flurry.com, REJECT
 # Foreca & Google
 HOST, adservice.google.com, REJECT
 HOST, googleads.g.doubleclick-cn.net, REJECT
@@ -65,22 +45,10 @@ HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
 
 # ======= K ======= #
-# 酷我音乐
-HOST, ad.tencentmusic.com, REJECT
-HOST, g.koowo.com, REJECT
-HOST, mobilead.kuwo.cn, REJECT
-HOST, rich.kuwo.cn, REJECT
-HOST, tmead.y.qq.com, REJECT
-HOST, tmeadcomm.y.qq.com, REJECT
 
 # ======= L ======= #
-# 蓝奏云
-HOST, statics.woozooo.com, REJECT
 
 # ======= M ======= #
-# 美颜相机
-HOST, aaid.uyunad.com, REJECT
-HOST, adui.tg.meitu.com, REJECT
 
 # ======= O ======= #
 # Outlook
@@ -89,16 +57,10 @@ HOST, mediation.adnxs.com, REJECT
 HOST, sin3-ib.adnxs.com, REJECT
 
 # ======= R ======= #
-# RARBG 推广跳转
-HOST, bravetense.com, REJECT
-HOST, furiousfar.com, REJECT
-HOST, swallowcrockerybless.com, REJECT
 
 # ======= S ======= #
 # 什么值得买
 HOST, api.zuihuimai.com, REJECT
-# 数字联盟
-HOST-SUFFIX, shuzilm.cn, REJECT
 
 # ======= T ======= #
 # 腾讯 无法使用的推送服务
@@ -122,19 +84,8 @@ HOST, sdkmonitor.biz.weibo.com, REJECT
 # ======= X ======= #
 # 小米
 HOST, sdkconfig.ad.xiaomi.com, REJECT
-# 迅雷 解除版权限制
-;HOST, hub5btmain.v6.shub.sandai.net, REJECT
-;HOST, hub5emu.v6.shub.sandai.net, REJECT
-;HOST, hub5idx.v6.shub.sandai.net, REJECT
 
 # ======= Y ======= #
-# 云闪付 开屏广告
-HOST, ads.95516.com, REJECT
-HOST, cm-10-138.getui.com, REJECT
-HOST, sdk.open.talk.getui.net, REJECT
-HOST, sdk-conf.getui.com, REJECT
-HOST, switch.cup.com.cn, REJECT
-HOST, tysdk.95516.com, REJECT
 
 # ======= Z ======= #
 # 知乎
@@ -146,6 +97,4 @@ HOST, sugar.zhihu.com, REJECT
 IP-CIDR, 118.89.204.198/32, REJECT
 IP-CIDR, 103.41.167.237/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
-# 字节跳动
-HOST, ad.zijieapi.com, REJECT
-HOST-WILDCARD, p?-ad-sign.byteimg.com, REJECT
+
