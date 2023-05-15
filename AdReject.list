@@ -9,6 +9,24 @@ DOMAIN-SUFFIX,amdc.alipay.com,REJECT
 DOMAIN-SUFFIX,mdap.alipaylog.com,REJECT
 DOMAIN,ynuf.alipay.com,REJECT
 DOMAIN-SUFFIX,alipay.dajiadou6.com,REJECT
+#金十数据
+DOMAIN-SUFFIX,jad-api.jin10.com,REJECT
+
+# 阿里巴巴
+DOMAIN-SUFFIX,dmtracking2.alibaba.com,REJECT
+DOMAIN-SUFFIX,marketing.alibaba.com,REJECT
+DOMAIN-SUFFIX,tracelog.www.alibaba.com,REJECT
+DOMAIN,click.alibaba.com,REJECT
+DOMAIN,dmtracking.alibaba.com,REJECT
+DOMAIN,zconfig.alibabausercontent.com,REJECT
+DOMAIN-SUFFIX,crm-eve.b2b.alibaba-inc.com,REJECT
+DOMAIN-SUFFIX,marketing.alibaba.com,REJECT
+DOMAIN-SUFFIX,crm-eve.b2b.alibaba-inc.com,REJECT
+DOMAIN-SUFFIX,tracelog.www.alibaba.com,REJECT
+DOMAIN-SUFFIX,cmap.alibaba.com,REJECT
+DOMAIN-SUFFIX,cmap.alibaba.com,REJECT
+DOMAIN-SUFFIX,cmap.alibaba.com,REJECT
+DOMAIN-SUFFIX,acookie.alibaba.com,REJECT
 
 #autohome
 DOMAIN,adnewnc.app.autohome.com.cn,REJECT
@@ -160,6 +178,8 @@ DOMAIN-SUFFIX,pixel-static.spotify.com,REJECT
 DOMAIN-SUFFIX,pixel.spotify.com,REJECT
 
 # ======= T ======= #
+# TradingView
+DOMAIN-SUFFIX,telemetry.tradingview.com,REJECT
 # 腾讯 无法使用的推送服务
 HOST, tpns.qq.com, REJECT
 # 淘宝
