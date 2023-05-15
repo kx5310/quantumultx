@@ -10,6 +10,33 @@ DOMAIN-SUFFIX,mdap.alipaylog.com,REJECT
 DOMAIN,ynuf.alipay.com,REJECT
 DOMAIN-SUFFIX,alipay.dajiadou6.com,REJECT
 
+#autohome
+DOMAIN,adnewnc.app.autohome.com.cn,REJECT
+DOMAIN,clickx.autohome.com.cn,REJECT
+DOMAIN,comm.app.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,33.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,activity.app.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,c.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,cmx.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,dspmnt.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,h.pcd.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,pcd.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,pcmx.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,pmptrack-autohome.gentags.net,REJECT
+DOMAIN-SUFFIX,public.app.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,push.app.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,pv.alert.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,pvx.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,rdx.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,adproxy.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,rd.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,ad.k.21cn.com,REJECT
+DOMAIN-SUFFIX,al.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,applogapi.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,stats.autohome.com.cn,REJECT
+DOMAIN-SUFFIX,alert.autohome.com.cn,REJECT
+
+
 # ======= B ======= #
 # 百度
 HOST-SUFFIX, pos.baidu.com, REJECT
