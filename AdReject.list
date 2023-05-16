@@ -1,15 +1,46 @@
+# ======= 运营商劫持 ======= #
+# > ChinaUnicom
+IP-CIDR,106.75.231.48/32,REJECT
+IP-CIDR,119.4.249.166/32,REJECT
+IP-CIDR,220.196.52.141/32,REJECT
+IP-CIDR,221.6.4.148/32,REJECT
+# > ChinaMobile
+IP-CIDR,114.247.28.96/32,REJECT
+IP-CIDR,120.240.95.37/32,REJECT
+IP-CIDR,221.179.131.72/32,REJECT
+IP-CIDR,221.179.140.145/32,REJECT
+# > ChinaTelecom
+IP-CIDR,61.160.200.223/32,REJECT
+IP-CIDR,61.160.200.242/32,REJECT
+IP-CIDR,61.160.200.252/32,REJECT
+IP-CIDR,61.174.50.214/32,REJECT
+IP-CIDR,111.175.220.163/32,REJECT
+IP-CIDR,111.175.220.164/32,REJECT
+IP-CIDR,122.229.8.47/32,REJECT
+IP-CIDR,122.229.29.89/32,REJECT
+IP-CIDR,124.232.160.178/32,REJECT
+IP-CIDR,175.6.223.15/32,REJECT
+IP-CIDR,183.59.53.237/32,REJECT
+IP-CIDR,218.93.127.37/32,REJECT
+IP-CIDR,221.228.17.152/32,REJECT
+IP-CIDR,221.231.6.79/32,REJECT
+IP-CIDR,222.186.61.91/32,REJECT
+IP-CIDR,222.186.61.95/32,REJECT
+IP-CIDR,222.186.61.96/32,REJECT
+IP-CIDR,222.186.61.97/32,REJECT
+
 # ======= A ======= #
 # Apple
 HOST, api-adservices.apple.com, REJECT
 HOST-SUFFIX, iadsdk.apple.com, REJECT
 
-#支付宝
+# 支付宝
 DOMAIN-SUFFIX,alipaylog.com,REJECT
 DOMAIN-SUFFIX,amdc.alipay.com,REJECT
 DOMAIN-SUFFIX,mdap.alipaylog.com,REJECT
 DOMAIN,ynuf.alipay.com,REJECT
 DOMAIN-SUFFIX,alipay.dajiadou6.com,REJECT
-#金十数据
+# 金十数据
 DOMAIN-SUFFIX,jad-api.jin10.com,REJECT
 
 # 阿里巴巴
@@ -28,7 +59,7 @@ DOMAIN-SUFFIX,cmap.alibaba.com,REJECT
 DOMAIN-SUFFIX,cmap.alibaba.com,REJECT
 DOMAIN-SUFFIX,acookie.alibaba.com,REJECT
 
-#autohome
+# 汽车之家
 DOMAIN,adnewnc.app.autohome.com.cn,REJECT
 DOMAIN,clickx.autohome.com.cn,REJECT
 DOMAIN,comm.app.autohome.com.cn,REJECT
@@ -65,17 +96,19 @@ DOMAIN-SUFFIX,miniapp.bilibili.com,REJECT
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 
 # ======= C ======= #
-#彩云
+# 彩云
 DOMAIN-SUFFIX,ad.caiyunapp.com,REJECT
 
 # ======= D ======= #
-#斗鱼
+# 斗鱼
 DOMAIN,msg.douyu.com,REJECT
 DOMAIN,cs-op.douyucdn.cn,REJECT
+DOMAIN,cdn.g.wan.douyu.com,REJECT
 DOMAIN,rtbapi.douyucdn.cn,REJECT
 DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
 DOMAIN-SUFFIX,g.wan.douyu.com,REJECT
 DOMAIN-SUFFIX,wan.douyu.com,REJECT
+
 
 # ======= E ======= #
 # ======= F ======= #
@@ -118,7 +151,7 @@ IP-CIDR, 186.76.76.200/32, REJECT
 
 # ======= I ======= #
 # ======= J ======= #
-#京东
+# 京东
 DOMAIN-SUFFIX,cm.jd.com,REJECT
 DOMAIN-SUFFIX,c-nfa.jd.com,REJECT
 DOMAIN-SUFFIX,du.jd.com,REJECT
@@ -151,7 +184,7 @@ DOMAIN,mercury.jd.com,REJECT
 # ======= L ======= #
 
 # ======= M ======= #
-#美团
+# 美团
 DOMAIN-SUFFIX,report.meituan.com,REJECT
 DOMAIN-SUFFIX,wmlog.meituan.com,REJECT
 DOMAIN-SUFFIX,analytics.meituan.net,REJECT
@@ -180,8 +213,13 @@ DOMAIN-SUFFIX,pixel.spotify.com,REJECT
 # ======= T ======= #
 # TradingView
 DOMAIN-SUFFIX,telemetry.tradingview.com,REJECT
-# 腾讯 无法使用的推送服务
+DOMAIN,s-new.tradingview.com,REJECT
+DOMAIN,widgetdata.tradingview.com,REJECT
+DOMAIN,s.tradingview.com,REJECT
+DOMAIN,s3.tradingview.com,REJECT
+# 腾讯
 HOST, tpns.qq.com, REJECT
+DOMAIN,wechat.epickeys.com,REJECT
 # 淘宝
 DOMAIN,advertisement.taobao.com,REJECT
 DOMAIN,amdcopen.m.taobao.com,REJECT
@@ -194,6 +232,15 @@ DOMAIN,fourier.taobao.com,REJECT
 DOMAIN,accscdn.m.taobao.com,REJECT
 DOMAIN,acs.wapa.taobao.com,REJECT
 DOMAIN,openjmacs.m.taobao.com,REJECT
+DOMAIN,baidu-taobao-av.com,REJECT
+DOMAIN,taobaoafp.allyes.cn,REJECT
+DOMAIN,adashx.ut.taobao.com,REJECT
+DOMAIN,taobaoafp.allyes.com,REJECT
+DOMAIN,adashx4ae.ut.taobao.com,REJECT
+DOMAIN,shop115048570.taobao.com,REJECT
+DOMAIN,h-adashx4ae.ut.taobao.com,REJECT
+DOMAIN,wb.110.taobao.com,REJECT
+DOMAIN,pcookie.taobao.com,REJECT
 DOMAIN-SUFFIX,apoll.m.taobao.com,REJECT
 DOMAIN-SUFFIX,agoodm.m.taobao.com,REJECT
 DOMAIN-SUFFIX,ai.m.taobao.com,REJECT
@@ -247,7 +294,6 @@ DOMAIN-SUFFIX,tbskip.taobao.com,REJECT
 DOMAIN-SUFFIX,simaba.m.taobao.com,REJECT
 DOMAIN-SUFFIX,tyh.taobao.com,REJECT
 DOMAIN-SUFFIX,g.click.taobao.com,REJECT
-DOMAIN,baidu-taobao-av.com,REJECT
 
 # ======= W ======= #
 # 网易云音乐
@@ -264,7 +310,7 @@ DOMAIN,pcr.da.netease.com,REJECT
 DOMAIN,rev.da.netease.com,REJECT
 DOMAIN,yt-adv.bn.netease.com,REJECT
 
-#126
+# 126
 DOMAIN-SUFFIX,admusicpic.music.126.net,REJECT
 DOMAIN-SUFFIX,iadmusicmat.music.126.net,REJECT
 DOMAIN-SUFFIX,iadmusicmatvideo.music.126.net,REJECT
@@ -294,7 +340,7 @@ DOMAIN,data.yd126.com,REJECT
 DOMAIN,shouji.yd126.com,REJECT
 DOMAIN,www.yd126.com,REJECT
 
-#163
+# 163
 HOST-SUFFIX, 163jiasu.com, REJECT
 DOMAIN-SUFFIX,163.wrating.com,REJECT
 DOMAIN-SUFFIX,163ren.com,REJECT
@@ -336,6 +382,7 @@ DOMAIN,down3.feiyang163.com,REJECT
 DOMAIN,www.feiyang163.com,REJECT
 
 # 微博 开屏广告
+DOMAIN,vs.biz.weibo.com,REJECT
 HOST, adstrategy.biz.weibo.com, REJECT
 HOST, kadmimage.biz.weibo.com, REJECT
 HOST, sdkaction.biz.weibo.com, REJECT
@@ -345,9 +392,83 @@ HOST, sdkmonitor.biz.weibo.com, REJECT
 # ======= X ======= #
 # 小米
 HOST, sdkconfig.ad.xiaomi.com, REJECT
+DOMAIN,stats.xiaomi.com,REJECT
+DOMAIN,max.ad.xiaomi.com,REJECT
+DOMAIN,mistat.xiaomi.com,REJECT
+DOMAIN,track.ai.xiaomi.com,REJECT
+DOMAIN,sys.intl.xiaomi.com,REJECT
+DOMAIN,clock.ad.xiaomi.com,REJECT
+DOMAIN,api.chat.xiaomi.net,REJECT
+DOMAIN,app.chat.xiaomi.net,REJECT
+DOMAIN,api.admob.xiaomi.com,REJECT
+DOMAIN,ecom.intl.xiaomi.com,REJECT
+DOMAIN,ssp.api.ad.xiaomi.com,REJECT
+DOMAIN,t.track.ad.xiaomi.com,REJECT
+DOMAIN,sentry.pay.xiaomi.com,REJECT
+DOMAIN,new.api.ad.xiaomi.com,REJECT
+DOMAIN,mds.mistat.xiaomi.com,REJECT
+DOMAIN,insight.ad.xiaomi.com,REJECT
+DOMAIN,in.o2o.api.xiaomi.com,REJECT
+DOMAIN,app.market.xiaomi.com,REJECT
+DOMAIN,benteng.ad.xiaomi.com,REJECT
+DOMAIN,cc.ad.intl.xiaomi.com,REJECT
+DOMAIN,api.mistat.xiaomi.com,REJECT
+DOMAIN,hybrid.intl.xiaomi.com,REJECT
+DOMAIN,mistat.intl.xiaomi.com,REJECT
+DOMAIN,log.pandora.xiaomi.com,REJECT
+DOMAIN,metrics.api.xiaomi.com,REJECT
+DOMAIN,branding.ad.xiaomi.com,REJECT
+DOMAIN,api.ad.intl.xiaomi.com,REJECT
+DOMAIN,cc.sys.intl.xiaomi.com,REJECT
+DOMAIN,api.micloud.xiaomi.net,REJECT
+DOMAIN,cdn.fds.api.xiaomi.com,REJECT
+DOMAIN,file.market.xiaomi.com,REJECT
+DOMAIN,sgp.o2o.api.xiaomi.com,REJECT
+DOMAIN,api.d.xiaomi.com,REJECT
+DOMAIN,buyxiaomimi6.com,REJECT
+DOMAIN,stats.music.xiaomi.com,REJECT
+DOMAIN,test.ad.intl.xiaomi.com,REJECT
+DOMAIN,zeus.ad.intl.xiaomi.com,REJECT
+DOMAIN,debug.max.ad.xiaomi.com,REJECT
+DOMAIN,globalapi.ad.xiaomi.com,REJECT
+DOMAIN,ccc.sys.intl.xiaomi.com,REJECT
+DOMAIN,cc2.sys.intl.xiaomi.com,REJECT
+DOMAIN,admin-ssp.ad.xiaomi.com,REJECT
+DOMAIN,o.data.mistat.xiaomi.com,REJECT
+DOMAIN,matrix.api.ad.xiaomi.com,REJECT
+DOMAIN,acheel.dmp.ad.xiaomi.com,REJECT
+DOMAIN,piwik.shenghuo.xiaomi.com,REJECT
+DOMAIN,metok-ccc.intl.xiaomi.com,REJECT
+DOMAIN,us.pdc.micloud.xiaomi.net,REJECT
+DOMAIN,intl.profile.ad.xiaomi.com,REJECT
+DOMAIN,register.xmpush.xiaomi.com,REJECT
+DOMAIN,test.new.api.ad.xiaomi.com,REJECT
+DOMAIN,appwall.ad.intl.xiaomi.com,REJECT
+DOMAIN,api.hybrid.intl.xiaomi.com,REJECT
+DOMAIN,app.chat.global.xiaomi.net,REJECT
+DOMAIN,data.mistat.rus.xiaomi.com,REJECT
+DOMAIN,controller.intl.xiaomi.com,REJECT
+DOMAIN,find.api.micloud.xiaomi.net,REJECT
+DOMAIN,controller.india.xiaomi.com,REJECT
+DOMAIN,matrix.avatar.ad.xiaomi.com,REJECT
+DOMAIN,us.smsapi.micloud.xiaomi.net,REJECT
+DOMAIN,us.sfsapi.micloud.xiaomi.net,REJECT
+DOMAIN,hao.xiaomi.com,REJECT
 
 # ======= Y ======= #
-#youtube
+# youtube
+DOMAIN,youtube-newscompilation.com,REJECT
+DOMAIN,yyoutube.com,REJECT
+DOMAIN,s.youtube.com,REJECT
+DOMAIN,s2.youtube.com,REJECT
+DOMAIN,youtube2top.com,REJECT
+DOMAIN,mediayoutube.com,REJECT
+DOMAIN,buatduityoutube.com,REJECT
+DOMAIN,nonxt1.c.youtube.com,REJECT
+DOMAIN,youtube.dwis.onomovie.xyz,REJECT
+DOMAIN,youtubedownloaderfree.net,REJECT
+DOMAIN,youtube.wandi.onomovie.xyz,REJECT
+DOMAIN,yyoutube.com,REJECT
 DOMAIN-SUFFIX,ads.youtube.com,REJECT
 DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
 DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
@@ -361,37 +482,8 @@ HOST, appcloud2.in.zhihu.com, REJECT
 HOST, crash2.zhihu.com, REJECT
 HOST, mqtt.zhihu.com, REJECT
 HOST, sugar.zhihu.com, REJECT
+DOMAIN,oia.zhihu.com,REJECT
 IP-CIDR, 118.89.204.198/32, REJECT
 IP-CIDR, 103.41.167.237/32, REJECT
 IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
-# ======= 运营商劫持 ======= #
-# > ChinaUnicom
-IP-CIDR,106.75.231.48/32,REJECT
-IP-CIDR,119.4.249.166/32,REJECT
-IP-CIDR,220.196.52.141/32,REJECT
-IP-CIDR,221.6.4.148/32,REJECT
-# > ChinaMobile
-IP-CIDR,114.247.28.96/32,REJECT
-IP-CIDR,120.240.95.37/32,REJECT
-IP-CIDR,221.179.131.72/32,REJECT
-IP-CIDR,221.179.140.145/32,REJECT
-# > ChinaTelecom
-IP-CIDR,61.160.200.223/32,REJECT
-IP-CIDR,61.160.200.242/32,REJECT
-IP-CIDR,61.160.200.252/32,REJECT
-IP-CIDR,61.174.50.214/32,REJECT
-IP-CIDR,111.175.220.163/32,REJECT
-IP-CIDR,111.175.220.164/32,REJECT
-IP-CIDR,122.229.8.47/32,REJECT
-IP-CIDR,122.229.29.89/32,REJECT
-IP-CIDR,124.232.160.178/32,REJECT
-IP-CIDR,175.6.223.15/32,REJECT
-IP-CIDR,183.59.53.237/32,REJECT
-IP-CIDR,218.93.127.37/32,REJECT
-IP-CIDR,221.228.17.152/32,REJECT
-IP-CIDR,221.231.6.79/32,REJECT
-IP-CIDR,222.186.61.91/32,REJECT
-IP-CIDR,222.186.61.95/32,REJECT
-IP-CIDR,222.186.61.96/32,REJECT
-IP-CIDR,222.186.61.97/32,REJECT
