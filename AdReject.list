@@ -212,11 +212,11 @@ DOMAIN-SUFFIX,pixel.spotify.com,REJECT
 
 # ======= T ======= #
 # TradingView
-DOMAIN-SUFFIX,telemetry.tradingview.com,REJECT
-DOMAIN,s-new.tradingview.com,REJECT
-DOMAIN,widgetdata.tradingview.com,REJECT
-DOMAIN,s.tradingview.com,REJECT
-DOMAIN,s3.tradingview.com,REJECT
+#DOMAIN-SUFFIX,telemetry.tradingview.com,REJECT
+#DOMAIN,s-new.tradingview.com,REJECT
+#DOMAIN,widgetdata.tradingview.com,REJECT
+#DOMAIN,s.tradingview.com,REJECT
+#DOMAIN,s3.tradingview.com,REJECT
 # 腾讯
 HOST, tpns.qq.com, REJECT
 DOMAIN,wechat.epickeys.com,REJECT
