@@ -88,12 +88,12 @@ DOMAIN-SUFFIX,alert.autohome.com.cn,REJECT
 
 # ======= B ======= #
 # 百度
-HOST-SUFFIX, pos.baidu.com, REJECT
+#HOST-SUFFIX, pos.baidu.com, REJECT
 # 哔哩哔哩
-HOST, mall.bilibili.com, REJECT
-HOST, passport.bilibili.com, REJECT
-DOMAIN-SUFFIX,miniapp.bilibili.com,REJECT
-DOMAIN-SUFFIX,cm.bilibili.com,REJECT
+#HOST, mall.bilibili.com, REJECT
+#HOST, passport.bilibili.com, REJECT
+#DOMAIN-SUFFIX,miniapp.bilibili.com,REJECT
+#DOMAIN-SUFFIX,cm.bilibili.com,REJECT
 
 # ======= C ======= #
 # 彩云
@@ -123,18 +123,18 @@ HOST-WILDCARD, adservice.google.com, REJECT
 
 # ======= G ======= #
 # 高德地图
-HOST, amap-aos-info-nogw.amap.com, REJECT
-HOST, awaken.amap.com, REJECT
-HOST, free-aos-cdn-image.amap.com, REJECT
-DOMAIN-SUFFIX,page.amap.com,REJECT
-DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
-DOMAIN,aamapi.com,REJECT
-DOMAIN,logs.amap.com,REJECT
-DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
-DOMAIN-SUFFIX,w.alikunlun.com,REJECT
+#HOST, amap-aos-info-nogw.amap.com, REJECT
+#HOST, awaken.amap.com, REJECT
+#HOST, free-aos-cdn-image.amap.com, REJECT
+#DOMAIN-SUFFIX,page.amap.com,REJECT
+#DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
+#DOMAIN,aamapi.com,REJECT
+#DOMAIN,logs.amap.com,REJECT
+#DOMAIN-SUFFIX,optimus-ads.amap.com,REJECT
+#DOMAIN-SUFFIX,w.alikunlun.com,REJECT
 
 # 工商银行 开屏广告
-HOST, pageviewp.icbc.com.cn, REJECT
+#HOST, pageviewp.icbc.com.cn, REJECT
 # 广告联盟
 HOST, is.snssdk.com, REJECT
 HOST, mi.gdt.qq.com, REJECT
@@ -203,12 +203,12 @@ HOST, sin3-ib.adnxs.com, REJECT
 HOST, api.zuihuimai.com, REJECT
 
 #spotify
-DOMAIN-SUFFIX,adeventtracker.spotify.com,REJECT
-DOMAIN-SUFFIX,weblb-wg.gslb.spotify.com,REJECT
-DOMAIN-SUFFIX,analytics.spotify.com,REJECT
-DOMAIN-SUFFIX,log.spotify.com,REJECT
-DOMAIN-SUFFIX,pixel-static.spotify.com,REJECT
-DOMAIN-SUFFIX,pixel.spotify.com,REJECT
+#DOMAIN-SUFFIX,adeventtracker.spotify.com,REJECT
+#DOMAIN-SUFFIX,weblb-wg.gslb.spotify.com,REJECT
+#DOMAIN-SUFFIX,analytics.spotify.com,REJECT
+#DOMAIN-SUFFIX,log.spotify.com,REJECT
+#DOMAIN-SUFFIX,pixel-static.spotify.com,REJECT
+#DOMAIN-SUFFIX,pixel.spotify.com,REJECT
 
 # ======= T ======= #
 # TradingView
@@ -297,18 +297,18 @@ DOMAIN-SUFFIX,g.click.taobao.com,REJECT
 
 # ======= W ======= #
 # 网易云音乐
-HOST, gdt.qq.com, REJECT
-HOST, httpdns.n.netease.com, REJECT
-HOST, iadmat.nosdn.127.net, REJECT
-DOMAIN-SUFFIX,da.netease.com,REJECT
-DOMAIN-SUFFIX,ad.bn.netease.com,REJECT
-DOMAIN-SUFFIX,analytics.hz.netease.com,REJECT
-DOMAIN-SUFFIX,statis.push.netease.com,REJECT
-DOMAIN,httpdns.n.netease.com,REJECT
-DOMAIN,mam.netease.com,REJECT
-DOMAIN,pcr.da.netease.com,REJECT
-DOMAIN,rev.da.netease.com,REJECT
-DOMAIN,yt-adv.bn.netease.com,REJECT
+#HOST, gdt.qq.com, REJECT
+#HOST, httpdns.n.netease.com, REJECT
+#HOST, iadmat.nosdn.127.net, REJECT
+#DOMAIN-SUFFIX,da.netease.com,REJECT
+#DOMAIN-SUFFIX,ad.bn.netease.com,REJECT
+#DOMAIN-SUFFIX,analytics.hz.netease.com,REJECT
+#DOMAIN-SUFFIX,statis.push.netease.com,REJECT
+#DOMAIN,httpdns.n.netease.com,REJECT
+#DOMAIN,mam.netease.com,REJECT
+#DOMAIN,pcr.da.netease.com,REJECT
+#DOMAIN,rev.da.netease.com,REJECT
+#DOMAIN,yt-adv.bn.netease.com,REJECT
 
 # 126
 DOMAIN-SUFFIX,admusicpic.music.126.net,REJECT
@@ -457,23 +457,23 @@ DOMAIN,hao.xiaomi.com,REJECT
 
 # ======= Y ======= #
 # youtube
-DOMAIN,youtube-newscompilation.com,REJECT
-DOMAIN,yyoutube.com,REJECT
-DOMAIN,s.youtube.com,REJECT
-DOMAIN,s2.youtube.com,REJECT
-DOMAIN,youtube2top.com,REJECT
-DOMAIN,mediayoutube.com,REJECT
-DOMAIN,buatduityoutube.com,REJECT
-DOMAIN,nonxt1.c.youtube.com,REJECT
-DOMAIN,youtube.dwis.onomovie.xyz,REJECT
-DOMAIN,youtubedownloaderfree.net,REJECT
-DOMAIN,youtube.wandi.onomovie.xyz,REJECT
-DOMAIN,yyoutube.com,REJECT
-DOMAIN-SUFFIX,ads.youtube.com,REJECT
-DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
-DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
-DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
-DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
+#DOMAIN,youtube-newscompilation.com,REJECT
+#DOMAIN,yyoutube.com,REJECT
+#DOMAIN,s.youtube.com,REJECT
+#DOMAIN,s2.youtube.com,REJECT
+#DOMAIN,youtube2top.com,REJECT
+#DOMAIN,mediayoutube.com,REJECT
+#DOMAIN,buatduityoutube.com,REJECT
+#DOMAIN,nonxt1.c.youtube.com,REJECT
+#DOMAIN,youtube.dwis.onomovie.xyz,REJECT
+#DOMAIN,youtubedownloaderfree.net,REJECT
+#DOMAIN,youtube.wandi.onomovie.xyz,REJECT
+#DOMAIN,yyoutube.com,REJECT
+#DOMAIN-SUFFIX,ads.youtube.com,REJECT
+#DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
+#DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
+#DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
+#DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
 
 # ======= Z ======= #
 # 知乎
