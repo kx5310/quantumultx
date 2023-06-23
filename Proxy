@@ -40,6 +40,10 @@ DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discordapp.com,PROXY
 DOMAIN-SUFFIX,discordapp.net,PROXY
 DOMAIN-SUFFIX,discord.gg,PROXY
+DOMAIN-SUFFIX,media.discordapp.net,PROXY
+DOMAIN-SUFFIX,images-ext-1.discordapp.net,PROXY
+DOMAIN-SUFFIX,images-ext-2.discordapp.net,PROXY
+
 
 # > Followme
 DOMAIN-SUFFIX,followme.com,PROXY
