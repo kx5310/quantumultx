@@ -38,6 +38,7 @@ IP-ASN,62041,Telegram
 # > Discord
 DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discordapp.com,PROXY
+DOMAIN-SUFFIX,discordapp.net,PROXY
 DOMAIN-SUFFIX,discord.gg,PROXY
 
 # > Followme
