@@ -40,6 +40,7 @@ DOMAIN-SUFFIX,amdc.alipay.com,REJECT
 DOMAIN-SUFFIX,mdap.alipaylog.com,REJECT
 DOMAIN,ynuf.alipay.com,REJECT
 DOMAIN-SUFFIX,alipay.dajiadou6.com,REJECT
+
 # 金十数据
 DOMAIN-SUFFIX,jad-api.jin10.com,REJECT
 
@@ -87,8 +88,6 @@ DOMAIN-SUFFIX,alert.autohome.com.cn,REJECT
 
 
 # ======= B ======= #
-# 百度
-#HOST-SUFFIX, pos.baidu.com, REJECT
 # 哔哩哔哩
 #HOST, mall.bilibili.com, REJECT
 #HOST, passport.bilibili.com, REJECT
@@ -110,7 +109,6 @@ DOMAIN-SUFFIX,g.wan.douyu.com,REJECT
 DOMAIN-SUFFIX,wan.douyu.com,REJECT
 
 
-# ======= E ======= #
 # ======= F ======= #
 # Foreca & Google
 HOST, adservice.google.com, REJECT
@@ -135,19 +133,13 @@ HOST-WILDCARD, adservice.google.com, REJECT
 
 # 工商银行 开屏广告
 #HOST, pageviewp.icbc.com.cn, REJECT
+
 # 广告联盟
 HOST, is.snssdk.com, REJECT
 HOST, mi.gdt.qq.com, REJECT
 HOST, open.e.kuaishou.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao.com, REJECT
 HOST-SUFFIX, pangolin-sdk-toutiao-b.com, REJECT
-
-# ======= H ======= #
-# HTTPDNS 服务器
-## 阿里云
-IP-CIDR, 203.107.1.1/24, REJECT
-## 百度贴吧
-IP-CIDR, 186.76.76.200/32, REJECT
 
 # ======= I ======= #
 # ======= J ======= #
@@ -389,71 +381,6 @@ HOST, sdkaction.biz.weibo.com, REJECT
 HOST, sdkclick.biz.weibo.com, REJECT
 HOST, sdkmonitor.biz.weibo.com, REJECT
 
-# ======= X ======= #
-# 小米
-HOST, sdkconfig.ad.xiaomi.com, REJECT
-DOMAIN,stats.xiaomi.com,REJECT
-DOMAIN,max.ad.xiaomi.com,REJECT
-DOMAIN,mistat.xiaomi.com,REJECT
-DOMAIN,track.ai.xiaomi.com,REJECT
-DOMAIN,sys.intl.xiaomi.com,REJECT
-DOMAIN,clock.ad.xiaomi.com,REJECT
-DOMAIN,api.chat.xiaomi.net,REJECT
-DOMAIN,app.chat.xiaomi.net,REJECT
-DOMAIN,api.admob.xiaomi.com,REJECT
-DOMAIN,ecom.intl.xiaomi.com,REJECT
-DOMAIN,ssp.api.ad.xiaomi.com,REJECT
-DOMAIN,t.track.ad.xiaomi.com,REJECT
-DOMAIN,sentry.pay.xiaomi.com,REJECT
-DOMAIN,new.api.ad.xiaomi.com,REJECT
-DOMAIN,mds.mistat.xiaomi.com,REJECT
-DOMAIN,insight.ad.xiaomi.com,REJECT
-DOMAIN,in.o2o.api.xiaomi.com,REJECT
-DOMAIN,app.market.xiaomi.com,REJECT
-DOMAIN,benteng.ad.xiaomi.com,REJECT
-DOMAIN,cc.ad.intl.xiaomi.com,REJECT
-DOMAIN,api.mistat.xiaomi.com,REJECT
-DOMAIN,hybrid.intl.xiaomi.com,REJECT
-DOMAIN,mistat.intl.xiaomi.com,REJECT
-DOMAIN,log.pandora.xiaomi.com,REJECT
-DOMAIN,metrics.api.xiaomi.com,REJECT
-DOMAIN,branding.ad.xiaomi.com,REJECT
-DOMAIN,api.ad.intl.xiaomi.com,REJECT
-DOMAIN,cc.sys.intl.xiaomi.com,REJECT
-DOMAIN,api.micloud.xiaomi.net,REJECT
-DOMAIN,cdn.fds.api.xiaomi.com,REJECT
-DOMAIN,file.market.xiaomi.com,REJECT
-DOMAIN,sgp.o2o.api.xiaomi.com,REJECT
-DOMAIN,api.d.xiaomi.com,REJECT
-DOMAIN,buyxiaomimi6.com,REJECT
-DOMAIN,stats.music.xiaomi.com,REJECT
-DOMAIN,test.ad.intl.xiaomi.com,REJECT
-DOMAIN,zeus.ad.intl.xiaomi.com,REJECT
-DOMAIN,debug.max.ad.xiaomi.com,REJECT
-DOMAIN,globalapi.ad.xiaomi.com,REJECT
-DOMAIN,ccc.sys.intl.xiaomi.com,REJECT
-DOMAIN,cc2.sys.intl.xiaomi.com,REJECT
-DOMAIN,admin-ssp.ad.xiaomi.com,REJECT
-DOMAIN,o.data.mistat.xiaomi.com,REJECT
-DOMAIN,matrix.api.ad.xiaomi.com,REJECT
-DOMAIN,acheel.dmp.ad.xiaomi.com,REJECT
-DOMAIN,piwik.shenghuo.xiaomi.com,REJECT
-DOMAIN,metok-ccc.intl.xiaomi.com,REJECT
-DOMAIN,us.pdc.micloud.xiaomi.net,REJECT
-DOMAIN,intl.profile.ad.xiaomi.com,REJECT
-DOMAIN,register.xmpush.xiaomi.com,REJECT
-DOMAIN,test.new.api.ad.xiaomi.com,REJECT
-DOMAIN,appwall.ad.intl.xiaomi.com,REJECT
-DOMAIN,api.hybrid.intl.xiaomi.com,REJECT
-DOMAIN,app.chat.global.xiaomi.net,REJECT
-DOMAIN,data.mistat.rus.xiaomi.com,REJECT
-DOMAIN,controller.intl.xiaomi.com,REJECT
-DOMAIN,find.api.micloud.xiaomi.net,REJECT
-DOMAIN,controller.india.xiaomi.com,REJECT
-DOMAIN,matrix.avatar.ad.xiaomi.com,REJECT
-DOMAIN,us.smsapi.micloud.xiaomi.net,REJECT
-DOMAIN,us.sfsapi.micloud.xiaomi.net,REJECT
-DOMAIN,hao.xiaomi.com,REJECT
 
 # ======= Y ======= #
 # youtube
