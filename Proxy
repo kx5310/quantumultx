@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,v2ex.com,PROXY
 DOMAIN-SUFFIX,quora.com,PROXY
 HOST,qph.cf2.quoracdn.net,PROXY
 HOST,identity.copy-trade.io,PROXY
-HOST_KEYWORD,wikipedia,PROXY
+HOST-KEYWORD,wikipedia,PROXY
 DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,imgur.com,PROXY
 DOMAIN-SUFFIX,limbopro.com,PROXY
