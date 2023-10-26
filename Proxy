@@ -1,4 +1,25 @@
-# NAME: ziyong
+# > ziyong
+DOMAIN-SUFFIX,6parkbbs.com,PROXY
+DOMAIN-SUFFIX,v2ex.com,PROXY
+DOMAIN-SUFFIX,quora.com,PROXY
+HOST,qph.cf2.quoracdn.net,PROXY
+HOST,identity.copy-trade.io,PROXY
+HOST_KEYWORD,wikipedia,PROXY
+DOMAIN-SUFFIX,poe.com,PROXY
+DOMAIN-SUFFIX,imgur.com,PROXY
+DOMAIN-SUFFIX,limbopro.com,PROXY
+DOMAIN-SUFFIX,share.dmhy.org,PROXY
+DOMAIN-SUFFIX,dropbox.com,PROXY
+DOMAIN-SUFFIX,bloomberg.com,PROXY
+DOMAIN-SUFFIX,netflav.com,PROXY
+DOMAIN-SUFFIX,jable.tv,PROXY
+DOMAIN-SUFFIX,zerohedge.com,PROXY
+DOMAIN-SUFFIX,rarbg.how,PROXY
+DOMAIN-SUFFIX,store.ubisoft.com,PROXY
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,pornhub.com,PROXY
+DOMAIN-SUFFIX,xvideos.com,PROXY
+DOMAIN-SUFFIX,hsex.men,PROXY
 
 # > Discord
 DOMAIN-SUFFIX,discord.com,PROXY
