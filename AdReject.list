@@ -125,7 +125,10 @@ DOMAIN-SUFFIX,wan.douyu.com,REJECT
 
 
 # ======= F ======= #
-# Foreca & Google
+
+
+# ======= G ======= #
+# Google
 HOST, adservice.google.com, REJECT
 HOST, googleads.g.doubleclick-cn.net, REJECT
 HOST, googleads.g.doubleclick.net, REJECT
@@ -134,7 +137,6 @@ HOST, pubads.g.doubleclick.net, REJECT
 HOST, www.googleadservices.com, REJECT
 HOST-KEYWORD, adservice.google.com., REJECT
 
-# ======= G ======= #
 # 高德地图
 HOST, amap-aos-info-nogw.amap.com, REJECT
 HOST, awaken.amap.com, REJECT
