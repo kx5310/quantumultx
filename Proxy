@@ -1,131 +1,132 @@
-# > ziyong
-DOMAIN-SUFFIX,6parkbbs.com,PROXY
-DOMAIN-SUFFIX,v2ex.com,PROXY
-DOMAIN-SUFFIX,quora.com,PROXY
+# ziyong
 HOST,qph.cf2.quoracdn.net,PROXY
 HOST,identity.copy-trade.io,PROXY
 HOST-KEYWORD,wikipedia,PROXY
-DOMAIN-SUFFIX,poe.com,PROXY
-DOMAIN-SUFFIX,imgur.com,PROXY
-DOMAIN-SUFFIX,limbopro.com,PROXY
-DOMAIN-SUFFIX,share.dmhy.org,PROXY
-DOMAIN-SUFFIX,dropbox.com,PROXY
-DOMAIN-SUFFIX,bloomberg.com,PROXY
-DOMAIN-SUFFIX,netflav.com,PROXY
-DOMAIN-SUFFIX,jable.tv,PROXY
-DOMAIN-SUFFIX,zerohedge.com,PROXY
-DOMAIN-SUFFIX,rarbg.how,PROXY
-DOMAIN-SUFFIX,store.ubisoft.com,PROXY
-DOMAIN-SUFFIX,reddit.com,PROXY
-DOMAIN-SUFFIX,pornhub.com,PROXY
-DOMAIN-SUFFIX,xvideos.com,PROXY
-DOMAIN-SUFFIX,hsex.men,PROXY
+HOST-SUFFIX,6parkbbs.com,PROXY
+HOST-SUFFIX,v2ex.com,PROXY
+HOST-SUFFIX,quora.com,PROXY
+HOST-SUFFIX,poe.com,PROXY
+HOST-SUFFIX,imgur.com,PROXY
+HOST-SUFFIX,imgur.io,PROXY
+HOST-SUFFIX,imgurinc.com,PROXY
+HOST-SUFFIX,limbopro.com,PROXY
+HOST-SUFFIX,share.dmhy.org,PROXY
+HOST-SUFFIX,dropbox.com,PROXY
+HOST-SUFFIX,bloomberg.com,PROXY
+HOST-SUFFIX,netflav.com,PROXY
+HOST-SUFFIX,jable.tv,PROXY
+HOST-SUFFIX,zerohedge.com,PROXY
+HOST-SUFFIX,rarbg.how,PROXY
+HOST-SUFFIX,store.ubisoft.com,PROXY
+HOST-SUFFIX,reddit.com,PROXY
+HOST-SUFFIX,pornhub.com,PROXY
+HOST-SUFFIX,xvideos.com,PROXY
+HOST-SUFFIX,hsex.men,PROXY
 
-# > Discord
-DOMAIN-SUFFIX,discord.com,PROXY
-DOMAIN-SUFFIX,discordapp.com,PROXY
-DOMAIN-SUFFIX,discordapp.net,PROXY
-DOMAIN-SUFFIX,discord.gg,PROXY
-DOMAIN-SUFFIX,media.discordapp.net,PROXY
-DOMAIN-SUFFIX,images-ext-1.discordapp.net,PROXY
-DOMAIN-SUFFIX,images-ext-2.discordapp.net,PROXY
+# Discord
+HOST-SUFFIX,discord.com,PROXY
+HOST-SUFFIX,discordapp.com,PROXY
+HOST-SUFFIX,discordapp.net,PROXY
+HOST-SUFFIX,discord.gg,PROXY
+HOST-SUFFIX,media.discordapp.net,PROXY
+HOST-SUFFIX,images-ext-1.discordapp.net,PROXY
+HOST-SUFFIX,images-ext-2.discordapp.net,PROXY
 
-# > Followme
-DOMAIN-SUFFIX,followme.com,PROXY
-DOMAIN-SUFFIX,fmz.com,PROXY
-DOMAIN-SUFFIX,fmzrc.com,PROXY
+# Followme
+HOST-SUFFIX,followme.com,PROXY
+HOST-SUFFIX,fmz.com,PROXY
+HOST-SUFFIX,fmzrc.com,PROXY
 
 # > ProtonMail
-DOMAIN-SUFFIX,protonmail.com,PROXY
-DOMAIN-SUFFIX,protonmail.ch,PROXY
-DOMAIN-SUFFIX,proton.me,PROXY
-DOMAIN-SUFFIX,protonvpn.com,PROXY
-DOMAIN-SUFFIX,protonvpn.net,PROXY
+HOST-SUFFIX,protonmail.com,PROXY
+HOST-SUFFIX,protonmail.ch,PROXY
+HOST-SUFFIX,proton.me,PROXY
+HOST-SUFFIX,protonvpn.com,PROXY
+HOST-SUFFIX,protonvpn.net,PROXY
 
-# > IC Markets
-DOMAIN-SUFFIX,icmarkets.com,PROXY
-DOMAIN-SUFFIX,icmarkets.eu,PROXY
-DOMAIN-SUFFIX,icmarkets-global.com,PROXY
-DOMAIN-SUFFIX,icmarkets-cn.com,PROXY
+# IC Markets
+HOST-SUFFIX,icmarkets.com,PROXY
+HOST-SUFFIX,icmarkets.eu,PROXY
+HOST-SUFFIX,icmarkets-global.com,PROXY
+HOST-SUFFIX,icmarkets-cn.com,PROXY
 
-# NAME: TradingView
-DOMAIN-SUFFIX,tradingview.com,PROXY
-DOMAIN-SUFFIX, tradingview.cn,PROXY
-DOMAIN-SUFFIX, tradingview.co.uk,PROXY
-DOMAIN-SUFFIX, tradingview.de,PROXY
-DOMAIN-SUFFIX, tradingview.es,PROXY
-DOMAIN-SUFFIX, tradingview.in,PROXY
-DOMAIN-SUFFIX, tradingview.it,PROXY
-DOMAIN-SUFFIX, tradingview.jp,PROXY
-DOMAIN-SUFFIX, tradingview.ru,PROXY
-DOMAIN-SUFFIX, tradingview.sg,PROXY
-DOMAIN-SUFFIX, tradingviewapp.com,PROXY
-DOMAIN-SUFFIX, tradingviewwidget.com,PROXY
+# TradingView
+HOST-SUFFIX,tradingview.com,PROXY
+HOST-SUFFIX,tradingview.cn,PROXY
+HOST-SUFFIX,tradingview.co.uk,PROXY
+HOST-SUFFIX,tradingview.de,PROXY
+HOST-SUFFIX,tradingview.es,PROXY
+HOST-SUFFIX,tradingview.in,PROXY
+HOST-SUFFIX,tradingview.it,PROXY
+HOST-SUFFIX,tradingview.jp,PROXY
+HOST-SUFFIX,tradingview.ru,PROXY
+HOST-SUFFIX,tradingview.sg,PROXY
+HOST-SUFFIX,tradingviewapp.com,PROXY
+HOST-SUFFIX,tradingviewwidget.com,PROXY
 
-# NAME: GitHub
-HOST,github-cloud.s3.amazonaws.com,GitHub
-HOST-SUFFIX,atom.io,GitHub
-HOST-SUFFIX,dependabot.com,GitHub
-HOST-SUFFIX,ghcr.io,GitHub
-HOST-SUFFIX,git.io,GitHub
-HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,GitHub
-HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,GitHub
-HOST-SUFFIX,github-cloud.s3.amazonaws.com,GitHub
-HOST-SUFFIX,github.blog,GitHub
-HOST-SUFFIX,github.com,GitHub
-HOST-SUFFIX,github.community,GitHub
-HOST-SUFFIX,github.dev,GitHub
-HOST-SUFFIX,github.io,GitHub
-HOST-SUFFIX,githubapp.com,GitHub
-HOST-SUFFIX,githubassets.com,GitHub
-HOST-SUFFIX,githubhackathon.com,GitHub
-HOST-SUFFIX,githubnext.com,GitHub
-HOST-SUFFIX,githubpreview.dev,GitHub
-HOST-SUFFIX,githubstatus.com,GitHub
-HOST-SUFFIX,githubuniverse.com,GitHub
-HOST-SUFFIX,githubusercontent.com,GitHub
-HOST-SUFFIX,myoctocat.com,GitHub
-HOST-SUFFIX,npm.community,GitHub
-HOST-SUFFIX,npmjs.com,GitHub
-HOST-SUFFIX,npmjs.org,GitHub
-HOST-SUFFIX,opensource.guide,GitHub
-HOST-SUFFIX,rawgit.com,GitHub
-HOST-SUFFIX,rawgithub.com,GitHub
-HOST-SUFFIX,repo.new,GitHub
-HOST-SUFFIX,thegithubshop.com,GitHub
-HOST-KEYWORD,github,GitHub
+#  GitHub
+HOST,github-cloud.s3.amazonaws.com,PROXY
+HOST-SUFFIX,atom.io,PROXY
+HOST-SUFFIX,dependabot.com,PROXY
+HOST-SUFFIX,ghcr.io,PROXY
+HOST-SUFFIX,git.io,PROXY
+HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,PROXY
+HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,PROXY
+HOST-SUFFIX,github-cloud.s3.amazonaws.com,PROXY
+HOST-SUFFIX,github.blog,PROXY
+HOST-SUFFIX,github.com,PROXY
+HOST-SUFFIX,github.community,PROXY
+HOST-SUFFIX,github.dev,PROXY
+HOST-SUFFIX,github.io,PROXY
+HOST-SUFFIX,githubapp.com,PROXY
+HOST-SUFFIX,githubassets.com,PROXY
+HOST-SUFFIX,githubhackathon.com,PROXY
+HOST-SUFFIX,githubnext.com,PROXY
+HOST-SUFFIX,githubpreview.dev,PROXY
+HOST-SUFFIX,githubstatus.com,PROXY
+HOST-SUFFIX,githubuniverse.com,PROXY
+HOST-SUFFIX,githubusercontent.com,PROXY
+HOST-SUFFIX,myoctocat.com,PROXY
+HOST-SUFFIX,npm.community,PROXY
+HOST-SUFFIX,npmjs.com,PROXY
+HOST-SUFFIX,npmjs.org,PROXY
+HOST-SUFFIX,opensource.guide,PROXY
+HOST-SUFFIX,rawgit.com,PROXY
+HOST-SUFFIX,rawgithub.com,PROXY
+HOST-SUFFIX,repo.new,PROXY
+HOST-SUFFIX,thegithubshop.com,PROXY
+HOST-KEYWORD,github,PROXY
 
-# NAME: Twitter
-HOST-SUFFIX,ads-twitter.com,Twitter
-HOST-SUFFIX,cms-twdigitalassets.com,Twitter
-HOST-SUFFIX,periscope.tv,Twitter
-HOST-SUFFIX,pscp.tv,Twitter
-HOST-SUFFIX,t.co,Twitter
-HOST-SUFFIX,tellapart.com,Twitter
-HOST-SUFFIX,tweetdeck.com,Twitter
-HOST-SUFFIX,twimg.co,Twitter
-HOST-SUFFIX,twimg.com,Twitter
-HOST-SUFFIX,twimg.org,Twitter
-HOST-SUFFIX,twitpic.com,Twitter
-HOST-SUFFIX,twitter.biz,Twitter
-HOST-SUFFIX,twitter.com,Twitter
-HOST-SUFFIX,twitter.jp,Twitter
-HOST-SUFFIX,twittercommunity.com,Twitter
-HOST-SUFFIX,twitterflightschool.com,Twitter
-HOST-SUFFIX,twitterinc.com,Twitter
-HOST-SUFFIX,twitteroauth.com,Twitter
-HOST-SUFFIX,twitterstat.us,Twitter
-HOST-SUFFIX,twtrdns.net,Twitter
-HOST-SUFFIX,twttr.com,Twitter
-HOST-SUFFIX,twttr.net,Twitter
-HOST-SUFFIX,twvid.com,Twitter
-HOST-SUFFIX,vine.co,Twitter
-HOST-KEYWORD,twitter,Twitter
-IP-CIDR,192.133.76.0/22,Twitter
-IP-CIDR,199.16.156.0/22,Twitter
-IP-CIDR,199.59.148.0/22,Twitter
-IP-CIDR,199.96.56.0/21,Twitter
-IP-CIDR,202.160.128.0/22,Twitter
-IP-CIDR,209.237.192.0/19,Twitter
-IP-CIDR,69.195.160.0/19,Twitter
-
+# Twitter
+HOST-SUFFIX,ads-twitter.com,PROXY
+HOST-SUFFIX,cms-twdigitalassets.com,PROXY
+HOST-SUFFIX,periscope.tv,PROXY
+HOST-SUFFIX,pscp.tv,PROXY
+HOST-SUFFIX,t.co,PROXY
+HOST-SUFFIX,tellapart.com,PROXY
+HOST-SUFFIX,tweetdeck.com,PROXY
+HOST-SUFFIX,twimg.co,PROXY
+HOST-SUFFIX,twimg.com,PROXY
+HOST-SUFFIX,twimg.org,PROXY
+HOST-SUFFIX,twitpic.com,PROXY
+HOST-SUFFIX,twitter.biz,PROXY
+HOST-SUFFIX,twitter.com,PROXY
+HOST-SUFFIX,twitter.jp,PROXY
+HOST-SUFFIX,twittercommunity.com,PROXY
+HOST-SUFFIX,twitterflightschool.com,PROXY
+HOST-SUFFIX,twitterinc.com,PROXY
+HOST-SUFFIX,twitteroauth.com,PROXY
+HOST-SUFFIX,twitterstat.us,PROXY
+HOST-SUFFIX,twtrdns.net,PROXY
+HOST-SUFFIX,twttr.com,PROXY
+HOST-SUFFIX,twttr.net,PROXY
+HOST-SUFFIX,twvid.com,PROXY
+HOST-SUFFIX,vine.co,PROXY
+HOST-KEYWORD,twitter,PROXY
+IP-CIDR,192.133.76.0/22,PROXY
+IP-CIDR,199.16.156.0/22,PROXY
+IP-CIDR,199.59.148.0/22,PROXY
+IP-CIDR,199.96.56.0/21,PROXY
+IP-CIDR,202.160.128.0/22,PROXY
+IP-CIDR,209.237.192.0/19,PROXY
+IP-CIDR,69.195.160.0/19,PROXY
