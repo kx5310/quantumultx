@@ -2,7 +2,10 @@
 HOST,qph.cf2.quoracdn.net,PROXY
 HOST,identity.copy-trade.io,PROXY
 HOST-KEYWORD,wikipedia,PROXY
+HOST-SUFFIX,6park.com,PROXY
 HOST-SUFFIX,6parkbbs.com,PROXY
+HOST-SUFFIX,6parknews.com,PROXY
+HOST-SUFFIX,cool18.com,PROXY
 HOST-SUFFIX,v2ex.com,PROXY
 HOST-SUFFIX,quora.com,PROXY
 HOST-SUFFIX,poe.com,PROXY
