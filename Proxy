@@ -27,13 +27,34 @@ HOST-SUFFIX,xvideos.com,PROXY
 HOST-SUFFIX,hsex.men,PROXY
 
 # Discord
-HOST-SUFFIX,discord.com,PROXY
-HOST-SUFFIX,discordapp.com,PROXY
-HOST-SUFFIX,discordapp.net,PROXY
-HOST-SUFFIX,discord.gg,PROXY
-HOST-SUFFIX,media.discordapp.net,PROXY
-HOST-SUFFIX,images-ext-1.discordapp.net,PROXY
-HOST-SUFFIX,images-ext-2.discordapp.net,PROXY
+HOST-SUFFIX,airhorn.solutions,Proxy
+HOST-SUFFIX,airhornbot.com,Proxy
+HOST-SUFFIX,bigbeans.solutions,Proxy
+HOST-SUFFIX,dis.gd,Proxy
+HOST-SUFFIX,discord-activities.com,Proxy
+HOST-SUFFIX,discord.co,Proxy
+HOST-SUFFIX,discord.com,Proxy
+HOST-SUFFIX,discord.design,Proxy
+HOST-SUFFIX,discord.dev,Proxy
+HOST-SUFFIX,discord.gg,Proxy
+HOST-SUFFIX,discord.gift,Proxy
+HOST-SUFFIX,discord.gifts,Proxy
+HOST-SUFFIX,discord.media,Proxy
+HOST-SUFFIX,discord.new,Proxy
+HOST-SUFFIX,discord.store,Proxy
+HOST-SUFFIX,discord.tools,Proxy
+HOST-SUFFIX,discordactivities.com,Proxy
+HOST-SUFFIX,discordapp.com,Proxy
+HOST-SUFFIX,discordapp.io,Proxy
+HOST-SUFFIX,discordapp.net,Proxy
+HOST-SUFFIX,discordapp.page.link,Proxy
+HOST-SUFFIX,discordcdn.com,Proxy
+HOST-SUFFIX,discordmerch.com,Proxy
+HOST-SUFFIX,discordpartygames.com,Proxy
+HOST-SUFFIX,discordsays.com,Proxy
+HOST-SUFFIX,discordstatus.com,Proxy
+HOST-SUFFIX,hammerandchisel.ssl.zendesk.com,Proxy
+HOST-SUFFIX,watchanimeattheoffice.com,Proxy
 
 # Followme
 HOST-SUFFIX,followme.com,PROXY
