@@ -1,4 +1,5 @@
 # > MetaTrader 5
+HOST-SUFFIX,metatrader5.com,DIRECT
 DOMAIN-SUFFIX,mt5.com,DIRECT
 DOMAIN-SUFFIX,mt5stats.com,DIRECT
 DOMAIN-SUFFIX,mt5live.com,DIRECT
@@ -19,6 +20,7 @@ DOMAIN-SUFFIX,fxblue.com,DIRECT
 DOMAIN-SUFFIX,content.mql5.com,DIRECT
 
 # > MetaTrader 4
+HOST-SUFFIX,metatrader4.com,DIRECT
 DOMAIN-SUFFIX,mt4.com,DIRECT
 DOMAIN-SUFFIX,mt4stats.com,DIRECT
 DOMAIN-SUFFIX,mt4live.com,DIRECT
