@@ -25,6 +25,9 @@ HOST-SUFFIX,reddit.com,PROXY
 HOST-SUFFIX,pornhub.com,PROXY
 HOST-SUFFIX,xvideos.com,PROXY
 HOST-SUFFIX,hsex.men,PROXY
+HOST-SUFFIX,4cdn.org,PROXY
+HOST-SUFFIX,4chan.org,PROXY
+HOST-SUFFIX,4channel.org,PROXY
 
 
 # Followme
