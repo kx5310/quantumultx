@@ -1,2 +1,2 @@
 # quantumultx
-test 8964
+test
