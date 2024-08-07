@@ -1,9 +1,9 @@
 # RejectUpdate
 
-DOMAIN-SUFFIX,dl.google.com,REJECT
-DOMAIN-SUFFIX,update.googleapis.com,REJECT
-DOMAIN-SUFFIX,aus5.mozilla.org,REJECT
-DOMAIN-SUFFIX,download.mozilla.org,REJECT
-DOMAIN-SUFFIX,updates.cdn.mozilla.net,REJECT
-DOMAIN-SUFFIX,updates.tdesktop.com,REJECT
-DOMAIN-SUFFIX,telegram.org,REJECT
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,update.googleapis.com
+DOMAIN-SUFFIX,aus5.mozilla.org
+DOMAIN-SUFFIX,download.mozilla.org
+DOMAIN-SUFFIX,updates.cdn.mozilla.net
+DOMAIN-SUFFIX,updates.tdesktop.com
+DOMAIN-SUFFIX,telegram.org
