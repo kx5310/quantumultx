@@ -1,33 +1,33 @@
 # ======= 运营商劫持 ======= #
 # > ChinaUnicom
-#IP-CIDR,106.75.231.48/32,REJECT
-#IP-CIDR,119.4.249.166/32,REJECT
-#IP-CIDR,220.196.52.141/32,REJECT
-#IP-CIDR,221.6.4.148/32,REJECT
+IP-CIDR,106.75.231.48/32,REJECT
+IP-CIDR,119.4.249.166/32,REJECT
+IP-CIDR,220.196.52.141/32,REJECT
+IP-CIDR,221.6.4.148/32,REJECT
 # > ChinaMobile
-#IP-CIDR,114.247.28.96/32,REJECT
-#IP-CIDR,120.240.95.37/32,REJECT
-#IP-CIDR,221.179.131.72/32,REJECT
-#IP-CIDR,221.179.140.145/32,REJECT
+IP-CIDR,114.247.28.96/32,REJECT
+IP-CIDR,120.240.95.37/32,REJECT
+IP-CIDR,221.179.131.72/32,REJECT
+IP-CIDR,221.179.140.145/32,REJECT
 # > ChinaTelecom
-#IP-CIDR,61.160.200.223/32,REJECT
-#IP-CIDR,61.160.200.242/32,REJECT
-#IP-CIDR,61.160.200.252/32,REJECT
-#IP-CIDR,61.174.50.214/32,REJECT
-#IP-CIDR,111.175.220.163/32,REJECT
-#IP-CIDR,111.175.220.164/32,REJECT
-#IP-CIDR,122.229.8.47/32,REJECT
-#IP-CIDR,122.229.29.89/32,REJECT
-#IP-CIDR,124.232.160.178/32,REJECT
-#IP-CIDR,175.6.223.15/32,REJECT
-#IP-CIDR,183.59.53.237/32,REJECT
-#IP-CIDR,218.93.127.37/32,REJECT
-#IP-CIDR,221.228.17.152/32,REJECT
-#IP-CIDR,221.231.6.79/32,REJECT
-#IP-CIDR,222.186.61.91/32,REJECT
-#IP-CIDR,222.186.61.95/32,REJECT
-#IP-CIDR,222.186.61.96/32,REJECT
-#IP-CIDR,222.186.61.97/32,REJECT
+IP-CIDR,61.160.200.223/32,REJECT
+IP-CIDR,61.160.200.242/32,REJECT
+IP-CIDR,61.160.200.252/32,REJECT
+IP-CIDR,61.174.50.214/32,REJECT
+IP-CIDR,111.175.220.163/32,REJECT
+IP-CIDR,111.175.220.164/32,REJECT
+IP-CIDR,122.229.8.47/32,REJECT
+IP-CIDR,122.229.29.89/32,REJECT
+IP-CIDR,124.232.160.178/32,REJECT
+IP-CIDR,175.6.223.15/32,REJECT
+IP-CIDR,183.59.53.237/32,REJECT
+IP-CIDR,218.93.127.37/32,REJECT
+IP-CIDR,221.228.17.152/32,REJECT
+IP-CIDR,221.231.6.79/32,REJECT
+IP-CIDR,222.186.61.91/32,REJECT
+IP-CIDR,222.186.61.95/32,REJECT
+IP-CIDR,222.186.61.96/32,REJECT
+IP-CIDR,222.186.61.97/32,REJECT
 
 # ======= A ======= #
 # Apple
@@ -75,53 +75,12 @@ DOMAIN-SUFFIX,cmap.alibaba.com,REJECT
 DOMAIN-SUFFIX,cmap.alibaba.com,REJECT
 DOMAIN-SUFFIX,acookie.alibaba.com,REJECT
 
-# 汽车之家
-#DOMAIN,adnewnc.app.autohome.com.cn,REJECT
-#DOMAIN,clickx.autohome.com.cn,REJECT
-#DOMAIN,comm.app.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,33.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,activity.app.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,c.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,cmx.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,dspmnt.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,h.pcd.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,pcd.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,pcmx.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,pmptrack-autohome.gentags.net,REJECT
-#DOMAIN-SUFFIX,public.app.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,push.app.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,pv.alert.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,pvx.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,rdx.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,adproxy.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,rd.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,ad.k.21cn.com,REJECT
-#DOMAIN-SUFFIX,al.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,applogapi.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,stats.autohome.com.cn,REJECT
-#DOMAIN-SUFFIX,alert.autohome.com.cn,REJECT
-
-
 # ======= B ======= #
 # 哔哩哔哩
 HOST, mall.bilibili.com, REJECT
 HOST, passport.bilibili.com, REJECT
 DOMAIN-SUFFIX,miniapp.bilibili.com,REJECT
 DOMAIN-SUFFIX,cm.bilibili.com,REJECT
-
-# ======= C ======= #
-# 彩云
-#HOST, ad.cyapi.cn, REJECT
-
-# ======= D ======= #
-# 斗鱼
-#DOMAIN,msg.douyu.com,REJECT
-#DOMAIN,cs-op.douyucdn.cn,REJECT
-#DOMAIN,cdn.g.wan.douyu.com,REJECT
-#DOMAIN,rtbapi.douyucdn.cn,REJECT
-#DOMAIN-SUFFIX,dotcounter.douyutv.com,REJECT
-#DOMAIN-SUFFIX,g.wan.douyu.com,REJECT
-#DOMAIN-SUFFIX,wan.douyu.com,REJECT
 
 
 # ======= G ======= #
@@ -190,23 +149,10 @@ HOST, metrics-picture.d.meituan.net, REJECT
 HOST, route-stats.d.meituan.net, REJECT
 
 
-# ======= O ======= #
-# Outlook
-HOST, acdn.adnxs.com, REJECT
-HOST, mediation.adnxs.com, REJECT
-HOST, sin3-ib.adnxs.com, REJECT
-
 # ======= S ======= #
 # 什么值得买
 HOST, api.zuihuimai.com, REJECT
 
-#spotify
-#DOMAIN-SUFFIX,adeventtracker.spotify.com,REJECT
-#DOMAIN-SUFFIX,weblb-wg.gslb.spotify.com,REJECT
-#DOMAIN-SUFFIX,analytics.spotify.com,REJECT
-#DOMAIN-SUFFIX,log.spotify.com,REJECT
-#DOMAIN-SUFFIX,pixel-static.spotify.com,REJECT
-#DOMAIN-SUFFIX,pixel.spotify.com,REJECT
 
 # ======= T ======= #
 # TradingView
@@ -215,9 +161,7 @@ DOMAIN,s-new.tradingview.com,REJECT
 DOMAIN,widgetdata.tradingview.com,REJECT
 DOMAIN,s.tradingview.com,REJECT
 DOMAIN,s3.tradingview.com,REJECT
-# 腾讯
-#HOST, tpns.qq.com, REJECT
-#DOMAIN,wechat.epickeys.com,REJECT
+
 # 淘宝
 HOST, poplayer.template.alibaba.com, REJECT
 DOMAIN,advertisement.taobao.com,REJECT
@@ -294,57 +238,6 @@ DOMAIN-SUFFIX,simaba.m.taobao.com,REJECT
 DOMAIN-SUFFIX,tyh.taobao.com,REJECT
 DOMAIN-SUFFIX,g.click.taobao.com,REJECT
 
-# ======= W ======= #
-# 网易云音乐
-#HOST, gdt.qq.com, REJECT
-#HOST, httpdns.music.163.com, REJECT
-#HOST, httpdns.n.netease.com, REJECT
-#HOST, iadmat.nosdn.127.net, REJECT
-#HOST, iadmatapk.nosdn.127.net, REJECT
-#HOST, iadmusicmat.music.126.net, REJECT
-#HOST, iadmusicmatvideo.music.126.net, REJECT
-#HOST-SUFFIX, 163jiasu.com, REJECT
-
-# 163
-HOST-SUFFIX, 163jiasu.com, REJECT
-DOMAIN-SUFFIX,163.wrating.com,REJECT
-DOMAIN-SUFFIX,163ren.com,REJECT
-DOMAIN-SUFFIX,adgeo.163.com,REJECT
-DOMAIN-SUFFIX,bobo.163.com,REJECT
-DOMAIN-SUFFIX,count.mail.163.com,REJECT
-DOMAIN-SUFFIX,crashlytics.163.com,REJECT
-DOMAIN-SUFFIX,e-p4p.163.com,REJECT
-DOMAIN-SUFFIX,fa.163.com,REJECT
-DOMAIN-SUFFIX,g.163.com,REJECT
-DOMAIN-SUFFIX,g1.163.com,REJECT
-DOMAIN-SUFFIX,gb.corp.163.com,REJECT
-DOMAIN-SUFFIX,iad.g.163.com,REJECT
-DOMAIN-SUFFIX,ir.mail.163.com,REJECT
-DOMAIN-SUFFIX,irpmt.mail.163.com,REJECT
-DOMAIN-SUFFIX,jxad.jx163.com,REJECT
-DOMAIN-SUFFIX,popme.163.com,REJECT
-DOMAIN-SUFFIX,push.yuedu.163.com,REJECT
-DOMAIN-SUFFIX,r.mail.163.com,REJECT
-DOMAIN-SUFFIX,rec.g.163.com,REJECT
-DOMAIN-SUFFIX,temp.163.com,REJECT
-DOMAIN-SUFFIX,tpe163.com,REJECT
-DOMAIN-SUFFIX,n.3g.163.com,REJECT
-DOMAIN-SUFFIX,nex.163.com,REJECT
-DOMAIN-SUFFIX,ff.xue163.net,REJECT
-DOMAIN-SUFFIX,analytics.163.com,REJECT
-DOMAIN-SUFFIX,adgeo.corp.163.com,REJECT
-DOMAIN,api.iplay.163.com,REJECT
-DOMAIN-SUFFIX,bobo.corp.163.com,REJECT
-DOMAIN-SUFFIX,fa.corp.163.com,REJECT
-DOMAIN-SUFFIX,g.corp.163.com,REJECT
-DOMAIN-SUFFIX,g1.corp.163.com,REJECT
-DOMAIN-SUFFIX,nex.corp.163.com,REJECT
-DOMAIN,www.163ren.com,REJECT
-DOMAIN,ac.dun.163yun.com,REJECT
-DOMAIN,down.feiyang163.com,REJECT
-DOMAIN,down2.feiyang163.com,REJECT
-DOMAIN,down3.feiyang163.com,REJECT
-DOMAIN,www.feiyang163.com,REJECT
 
 # 微博 开屏广告
 HOST, adstrategy.biz.weibo.com, REJECT
@@ -373,16 +266,4 @@ DOMAIN-SUFFIX,youtube.112.2o7.net,REJECT
 DOMAIN-SUFFIX,ssl-youtube.2cnt.net,REJECT
 DOMAIN-SUFFIX,youtube.2cnt.net,REJECT
 DOMAIN-SUFFIX,ehg-youtube.hitbox.com,REJECT
-
-# ======= Z ======= #
-# 知乎
-HOST, appcloud.zhihu.com, REJECT
-HOST, appcloud2.in.zhihu.com, REJECT
-HOST, crash2.zhihu.com, REJECT
-HOST, mqtt.zhihu.com, REJECT
-HOST, sugar.zhihu.com, REJECT
-HOST, zxid-m.mobileservice.cn, REJECT
-IP-CIDR, 103.41.167.237/32, REJECT
-IP-CIDR, 118.89.204.198/32, REJECT
-IP6-CIDR, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT
 
