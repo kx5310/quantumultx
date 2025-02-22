@@ -1,62 +1,71 @@
 # ziyong
-HOST,qph.cf2.quoracdn.net,PROXY
-HOST,identity.copy-trade.io,PROXY
-HOST-KEYWORD,wikipedia,PROXY
-HOST-SUFFIX,6park.com,PROXY
-HOST-SUFFIX,6parkbbs.com,PROXY
-HOST-SUFFIX,6parknews.com,PROXY
-HOST-SUFFIX,cool18.com,PROXY
-HOST-SUFFIX,v2ex.com,PROXY
-HOST-SUFFIX,quora.com,PROXY
-HOST-SUFFIX,poe.com,PROXY
-HOST-SUFFIX,imgur.com,PROXY
-HOST-SUFFIX,imgur.io,PROXY
-HOST-SUFFIX,imgurinc.com,PROXY
-HOST-SUFFIX,limbopro.com,PROXY
-HOST-SUFFIX,share.dmhy.org,PROXY
-HOST-SUFFIX,dropbox.com,PROXY
-HOST-SUFFIX,bloomberg.com,PROXY
-HOST-SUFFIX,netflav.com,PROXY
-HOST-SUFFIX,jable.tv,PROXY
-HOST-SUFFIX,zerohedge.com,PROXY
-HOST-SUFFIX,rarbg.how,PROXY
-HOST-SUFFIX,store.ubisoft.com,PROXY
-HOST-SUFFIX,reddit.com,PROXY
-HOST-SUFFIX,pornhub.com,PROXY
-HOST-SUFFIX,xvideos.com,PROXY
-HOST-SUFFIX,4cdn.org,PROXY
-HOST-SUFFIX,4chan.org,PROXY
-HOST-SUFFIX,4channel.org,PROXY
+HOST,qph.cf2.quoracdn.net,proxy
+HOST,identity.copy-trade.io,proxy
+HOST-KEYWORD,wikipedia,proxy
+HOST-SUFFIX,6park.com,proxy
+HOST-SUFFIX,6parkbbs.com,proxy
+HOST-SUFFIX,6parknews.com,proxy
+HOST-SUFFIX,cool18.com,proxy
+HOST-SUFFIX,v2ex.com,proxy
+HOST-SUFFIX,quora.com,proxy
+HOST-SUFFIX,poe.com,proxy
+HOST-SUFFIX,imgur.com,proxy
+HOST-SUFFIX,imgur.io,proxy
+HOST-SUFFIX,imgurinc.com,proxy
+HOST-SUFFIX,limbopro.com,proxy
+HOST-SUFFIX,share.dmhy.org,proxy
+HOST-SUFFIX,dropbox.com,proxy
+HOST-SUFFIX,bloomberg.com,proxy
+HOST-SUFFIX,netflav.com,proxy
+HOST-SUFFIX,jable.tv,proxy
+HOST-SUFFIX,zerohedge.com,proxy
+HOST-SUFFIX,rarbg.how,proxy
+HOST-SUFFIX,store.ubisoft.com,proxy
+HOST-SUFFIX,reddit.com,proxy
+HOST-SUFFIX,pornhub.com,proxy
+HOST-SUFFIX,xvideos.com,proxy
+HOST-SUFFIX,4cdn.org,proxy
+HOST-SUFFIX,4chan.org,proxy
+HOST-SUFFIX,4channel.org,proxy
 
+# Grok
+HOST-SUFFIX, x.ai, proxy
+HOST-SUFFIX, www.x.ai, proxy
+HOST-SUFFIX, api.x.ai, proxy
+HOST-SUFFIX, grok.x.ai, proxy
+HOST-SUFFIX, app.grok.x.ai, proxy
+HOST-SUFFIX, chat.grok.x.ai, proxy
+HOST-SUFFIX, cdn.x.ai, proxy
+HOST-SUFFIX, auth.x.ai, proxy
 
 # Followme
-HOST-SUFFIX,followme.com,PROXY
-HOST-SUFFIX,fmz.com,PROXY
-HOST-SUFFIX,fmzrc.com,PROXY
+HOST-SUFFIX,followme.com,proxy
+HOST-SUFFIX,fmz.com,proxy
+HOST-SUFFIX,fmzrc.com,proxy
 
 # > ProtonMail
-HOST-SUFFIX,protonmail.com,PROXY
-HOST-SUFFIX,protonmail.ch,PROXY
-HOST-SUFFIX,proton.me,PROXY
-HOST-SUFFIX,protonvpn.com,PROXY
-HOST-SUFFIX,protonvpn.net,PROXY
+HOST-SUFFIX,protonmail.com,proxy
+HOST-SUFFIX,protonmail.ch,proxy
+HOST-SUFFIX,proton.me,proxy
+HOST-SUFFIX,protonvpn.com,proxy
+HOST-SUFFIX,protonvpn.net,proxy
 
 # IC Markets
-HOST-SUFFIX,icmarkets.com,PROXY
-HOST-SUFFIX,icmarkets.eu,PROXY
-HOST-SUFFIX,icmarkets-global.com,PROXY
-HOST-SUFFIX,icmarkets-cn.com,PROXY
+HOST-SUFFIX,icmarkets.com,proxy
+HOST-SUFFIX,icmarkets.eu,proxy
+HOST-SUFFIX,icmarkets-global.com,proxy
+HOST-SUFFIX,icmarkets-cn.com,proxy
 
 # TradingView
-HOST-SUFFIX,tradingview.com,PROXY
-HOST-SUFFIX,tradingview.cn,PROXY
-HOST-SUFFIX,tradingview.co.uk,PROXY
-HOST-SUFFIX,tradingview.de,PROXY
-HOST-SUFFIX,tradingview.es,PROXY
-HOST-SUFFIX,tradingview.in,PROXY
-HOST-SUFFIX,tradingview.it,PROXY
-HOST-SUFFIX,tradingview.jp,PROXY
-HOST-SUFFIX,tradingview.ru,PROXY
-HOST-SUFFIX,tradingview.sg,PROXY
-HOST-SUFFIX,tradingviewapp.com,PROXY
-HOST-SUFFIX,tradingviewwidget.com,PROXY
+HOST-SUFFIX,tradingview.com,proxy
+HOST-SUFFIX,tradingview.cn,proxy
+HOST-SUFFIX,tradingview.co.uk,proxy
+HOST-SUFFIX,tradingview.de,proxy
+HOST-SUFFIX,tradingview.es,proxy
+HOST-SUFFIX,tradingview.in,proxy
+HOST-SUFFIX,tradingview.it,proxy
+HOST-SUFFIX,tradingview.jp,proxy
+HOST-SUFFIX,tradingview.ru,proxy
+HOST-SUFFIX,tradingview.sg,proxy
+HOST-SUFFIX,tradingviewapp.com,proxy
+HOST-SUFFIX,tradingviewwidget.com,proxy
